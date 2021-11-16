@@ -1,6 +1,6 @@
 {
   "name": "test-standard-version",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "测试自动生成版本号包的功能",
   "main": "index.js",
   "scripts": {
