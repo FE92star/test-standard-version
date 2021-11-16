@@ -1,11 +1,12 @@
 {
   "name": "test-standard-version",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "测试自动生成版本号包的功能",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "npx standard-version --no-verify -t release-"
+    "major-release": "npx standard-version --no-verify -t release-",
+    "minor-release": "npx standard-version --no-verify -t"
   },
   "author": "",
   "license": "ISC",
